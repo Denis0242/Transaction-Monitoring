@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2026.1' source-platform='win' version='18.1'>
+<datasources>
+<datasource caption='AML Alerts' inline='true' name='amlalerts'><connection class='textscan' directory='../data/processed' filename='alerts.csv' separator=',' /></datasource>
+<datasource caption='Transactions' inline='true' name='transactions'><connection class='textscan' directory='../data/processed' filename='transactions_enriched.csv' separator=',' /></datasource>
+<datasource caption='Customer Risk' inline='true' name='risk'><connection class='textscan' directory='../data/processed' filename='customer_risk_features.csv' separator=',' /></datasource>
+</datasources>
+<worksheets><worksheet name='Alert Queue'/><worksheet name='Alert Trend'/><worksheet name='Scenario Analytics'/><worksheet name='Customer Risk'/><worksheet name='Transaction Explorer'/></worksheets>
+<dashboards><dashboard name='AML Executive Dashboard'/><dashboard name='Investigator Workbench'/></dashboards>
+</workbook>

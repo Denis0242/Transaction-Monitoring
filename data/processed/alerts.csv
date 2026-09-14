@@ -1,0 +1,170 @@
+alert_id,customer_id,scenario,alert_date,alert_amount,risk_score,recommended_action,disposition,risk_level
+ALT0001,CUST1019,Potential Structuring,2026-08-28,63452.72,88,Review,Pending,High
+ALT0002,CUST1024,Potential Structuring,2026-08-01,61634.36,88,Review,Escalate to Case,High
+ALT0003,CUST1029,Potential Structuring,2026-08-10,60019.96,88,Review,Close - No Suspicion,High
+ALT0004,CUST1037,Potential Structuring,2026-08-07,55238.82,84,Review,Close - No Suspicion,Moderate
+ALT0005,CUST1044,Potential Structuring,2026-08-05,72639.02,92,Review,Close - No Suspicion,Moderate
+ALT0006,CUST1048,Potential Structuring,2026-08-25,61922.59,88,Review,SAR Consideration,High
+ALT0007,CUST1077,Potential Structuring,2026-08-14,61860.63,88,Review,Pending,High
+ALT0008,CUST1109,Potential Structuring,2026-08-31,61781.43,88,Review,Pending,High
+ALT0009,CUST1165,Potential Structuring,2026-08-23,62892.88,88,Review,Pending,High
+ALT0010,CUST1187,Potential Structuring,2026-05-31,61918.8,88,Review,Escalate to Case,Moderate
+ALT0011,CUST1202,Potential Structuring,2026-07-04,64080.0,88,Review,Pending,Moderate
+ALT0012,CUST1259,Potential Structuring,2026-08-20,71600.17,92,Review,Pending,Moderate
+ALT0013,CUST1274,Potential Structuring,2026-09-05,60773.5,88,Review,Close - No Suspicion,High
+ALT0014,CUST1298,Potential Structuring,2026-08-26,64450.25,88,Review,Escalate to Case,Moderate
+ALT0015,CUST1143,High-Risk Jurisdiction Wire,2026-06-10,62575.29,77,Escalate,Pending,High
+ALT0016,CUST1241,High-Risk Jurisdiction Wire,2026-04-27,20006.33,73,Escalate,Close - No Suspicion,High
+ALT0017,CUST1252,High-Risk Jurisdiction Wire,2026-07-14,20015.55,73,Escalate,Close - No Suspicion,High
+ALT0018,CUST1102,High-Risk Jurisdiction Wire,2026-09-04,46899.85,75,Escalate,Escalate to Case,High
+ALT0019,CUST1241,High-Risk Jurisdiction Wire,2026-06-19,54555.41,76,Escalate,Close - No Suspicion,High
+ALT0020,CUST1265,High-Risk Jurisdiction Wire,2026-01-13,29225.69,74,Escalate,Pending,High
+ALT0021,CUST1116,High-Risk Jurisdiction Wire,2026-03-27,82008.79,78,Escalate,Close - No Suspicion,High
+ALT0022,CUST1143,High-Risk Jurisdiction Wire,2026-06-30,67127.86,77,Escalate,Pending,High
+ALT0023,CUST1099,High-Risk Jurisdiction Wire,2026-02-14,66323.19,77,Escalate,Close - No Suspicion,Moderate
+ALT0024,CUST1099,High-Risk Jurisdiction Wire,2026-06-28,47997.87,75,Escalate,Pending,Moderate
+ALT0025,CUST1182,High-Risk Jurisdiction Wire,2026-01-28,22385.13,73,Escalate,Pending,High
+ALT0026,CUST1273,High-Risk Jurisdiction Wire,2026-05-08,15739.87,73,Escalate,Pending,High
+ALT0027,CUST1182,High-Risk Jurisdiction Wire,2026-08-21,41471.23,75,Escalate,SAR Consideration,High
+ALT0028,CUST1205,High-Risk Jurisdiction Wire,2026-06-20,78511.36,78,Escalate,Close - No Suspicion,High
+ALT0029,CUST1132,High-Risk Jurisdiction Wire,2026-02-04,67876.63,77,Escalate,Pending,Moderate
+ALT0030,CUST1247,High-Risk Jurisdiction Wire,2026-03-28,11709.75,72,Escalate,Close - No Suspicion,Moderate
+ALT0031,CUST1122,High-Risk Jurisdiction Wire,2026-06-07,23798.75,73,Escalate,SAR Consideration,Moderate
+ALT0032,CUST1014,High-Risk Jurisdiction Wire,2026-04-30,80842.0,78,Escalate,Close - No Suspicion,Moderate
+ALT0033,CUST1204,High-Risk Jurisdiction Wire,2026-02-17,28195.95,74,Escalate,Close - No Suspicion,Moderate
+ALT0034,CUST1205,High-Risk Jurisdiction Wire,2026-07-20,88937.93,79,Escalate,Close - No Suspicion,High
+ALT0035,CUST1241,High-Risk Jurisdiction Wire,2026-09-03,21038.32,73,Escalate,Close - No Suspicion,High
+ALT0036,CUST1132,High-Risk Jurisdiction Wire,2026-05-23,61641.91,77,Escalate,Escalate to Case,Moderate
+ALT0037,CUST1070,High-Risk Jurisdiction Wire,2026-07-15,23070.42,73,Escalate,Pending,Moderate
+ALT0038,CUST1102,High-Risk Jurisdiction Wire,2026-02-11,89504.09,79,Escalate,Pending,High
+ALT0039,CUST1122,High-Risk Jurisdiction Wire,2026-01-07,34332.9,74,Escalate,Close - No Suspicion,Moderate
+ALT0040,CUST1182,High-Risk Jurisdiction Wire,2026-01-10,48168.9,76,Escalate,Escalate to Case,High
+ALT0041,CUST1132,High-Risk Jurisdiction Wire,2026-05-03,54558.13,76,Escalate,Pending,Moderate
+ALT0042,CUST1297,High-Risk Jurisdiction Wire,2026-08-13,18442.51,73,Escalate,Escalate to Case,Moderate
+ALT0043,CUST1014,High-Risk Jurisdiction Wire,2026-07-21,55692.47,76,Escalate,Close - No Suspicion,Moderate
+ALT0044,CUST1241,High-Risk Jurisdiction Wire,2026-06-22,35891.59,74,Escalate,Close - No Suspicion,High
+ALT0045,CUST1099,High-Risk Jurisdiction Wire,2026-04-19,78479.98,78,Escalate,Pending,Moderate
+ALT0046,CUST1265,High-Risk Jurisdiction Wire,2026-08-08,27430.84,74,Escalate,Escalate to Case,High
+ALT0047,CUST1102,High-Risk Jurisdiction Wire,2026-07-02,28882.85,74,Escalate,Escalate to Case,High
+ALT0048,CUST1265,High-Risk Jurisdiction Wire,2026-06-04,65323.32,77,Escalate,Escalate to Case,High
+ALT0049,CUST1132,High-Risk Jurisdiction Wire,2026-06-05,54587.24,76,Escalate,Close - No Suspicion,Moderate
+ALT0050,CUST1116,High-Risk Jurisdiction Wire,2026-09-01,72010.11,78,Escalate,Pending,High
+ALT0051,CUST1099,High-Risk Jurisdiction Wire,2026-03-19,49832.5,76,Escalate,Pending,Moderate
+ALT0052,CUST1014,High-Risk Jurisdiction Wire,2026-03-26,27414.95,74,Escalate,SAR Consideration,Moderate
+ALT0053,CUST1205,High-Risk Jurisdiction Wire,2026-05-17,83462.34,78,Escalate,Close - No Suspicion,High
+ALT0054,CUST1014,High-Risk Jurisdiction Wire,2026-06-12,77554.06,78,Escalate,Close - No Suspicion,Moderate
+ALT0055,CUST1252,High-Risk Jurisdiction Wire,2026-01-02,77483.18,78,Escalate,Close - No Suspicion,High
+ALT0056,CUST1182,High-Risk Jurisdiction Wire,2026-01-07,43472.45,75,Escalate,Escalate to Case,High
+ALT0057,CUST1122,High-Risk Jurisdiction Wire,2026-06-13,89138.74,79,Escalate,Close - No Suspicion,Moderate
+ALT0058,CUST1143,High-Risk Jurisdiction Wire,2026-05-29,30408.96,74,Escalate,Escalate to Case,High
+ALT0059,CUST1262,High-Risk Jurisdiction Wire,2026-06-24,13609.29,73,Escalate,Escalate to Case,Moderate
+ALT0060,CUST1252,High-Risk Jurisdiction Wire,2026-04-24,49234.28,76,Escalate,Pending,High
+ALT0061,CUST1265,High-Risk Jurisdiction Wire,2026-03-30,77508.75,78,Escalate,Pending,High
+ALT0062,CUST1116,High-Risk Jurisdiction Wire,2026-01-30,45974.57,75,Escalate,Pending,High
+ALT0063,CUST1252,High-Risk Jurisdiction Wire,2026-08-25,55913.84,76,Escalate,Pending,High
+ALT0064,CUST1122,High-Risk Jurisdiction Wire,2026-07-17,76216.73,78,Escalate,Escalate to Case,Moderate
+ALT0065,CUST1116,High-Risk Jurisdiction Wire,2026-01-16,74817.75,78,Escalate,Pending,High
+ALT0066,CUST1143,High-Risk Jurisdiction Wire,2026-05-17,58066.24,76,Escalate,Pending,High
+ALT0067,CUST1205,High-Risk Jurisdiction Wire,2026-07-06,75574.35,78,Escalate,Pending,High
+ALT0068,CUST1102,High-Risk Jurisdiction Wire,2026-01-26,70185.5,77,Escalate,Pending,High
+ALT0069,CUST1122,Unusual Volume Spike,2026-06-28,125406.15,95,Review,SAR Consideration,Moderate
+ALT0070,CUST1014,Unusual Volume Spike,2026-04-28,106274.28,95,Review,Escalate to Case,Moderate
+ALT0071,CUST1122,Unusual Volume Spike,2026-07-28,92802.9,95,Review,SAR Consideration,Moderate
+ALT0072,CUST1187,Unusual Volume Spike,2026-07-28,101861.66,95,Review,Close - No Suspicion,Moderate
+ALT0073,CUST1205,Unusual Volume Spike,2026-07-28,170304.02,95,Review,Escalate to Case,High
+ALT0074,CUST1102,Unusual Volume Spike,2026-02-28,92259.96,95,Review,Escalate to Case,High
+ALT0075,CUST1073,Unusual Volume Spike,2026-07-28,111994.63,95,Review,Pending,High
+ALT0076,CUST1132,Unusual Volume Spike,2026-05-28,121879.82,95,Review,Pending,Moderate
+ALT0077,CUST1014,Unusual Volume Spike,2026-06-28,83538.19,95,Review,Close - No Suspicion,Moderate
+ALT0078,CUST1241,Unusual Volume Spike,2026-06-28,101748.16,95,Review,Pending,High
+ALT0079,CUST1116,Unusual Volume Spike,2026-01-28,132928.6,95,Review,Close - No Suspicion,High
+ALT0080,CUST1080,Unusual Volume Spike,2026-06-28,41515.63,95,Review,Pending,Moderate
+ALT0081,CUST1102,Unusual Volume Spike,2026-01-28,76711.32,95,Review,Close - No Suspicion,High
+ALT0082,CUST1294,Unusual Volume Spike,2026-05-28,39076.19,95,Review,Close - No Suspicion,High
+ALT0083,CUST1014,Unusual Volume Spike,2026-07-28,75934.17,95,Review,Escalate to Case,Moderate
+ALT0084,CUST1155,Unusual Volume Spike,2026-07-28,85272.18,95,Review,Pending,Moderate
+ALT0085,CUST1055,Unusual Volume Spike,2026-03-28,39266.6,95,Review,Escalate to Case,High
+ALT0086,CUST1252,Unusual Volume Spike,2026-01-28,110610.87,95,Review,SAR Consideration,High
+ALT0087,CUST1170,Unusual Volume Spike,2026-07-28,85771.85,95,Review,Close - No Suspicion,Moderate
+ALT0088,CUST1230,Unusual Volume Spike,2026-08-28,25502.29,95,Review,Close - No Suspicion,High
+ALT0089,CUST1122,Unusual Volume Spike,2026-01-28,53828.41,95,Review,Pending,Moderate
+ALT0090,CUST1102,Unusual Volume Spike,2026-07-28,60245.13,95,Review,Escalate to Case,High
+ALT0091,CUST1116,Unusual Volume Spike,2026-03-28,99253.33,95,Review,Pending,High
+ALT0092,CUST1108,Unusual Volume Spike,2026-07-28,105395.73,95,Review,Pending,High
+ALT0093,CUST1132,Unusual Volume Spike,2026-02-28,83805.43,95,Review,Close - No Suspicion,Moderate
+ALT0094,CUST1133,Unusual Volume Spike,2026-08-28,20363.44,95,Review,Close - No Suspicion,High
+ALT0095,CUST1143,Unusual Volume Spike,2026-06-28,142720.62,95,Review,Close - No Suspicion,High
+ALT0096,CUST1029,Unusual Volume Spike,2026-01-28,42258.84,95,Review,Escalate to Case,High
+ALT0097,CUST1205,Unusual Volume Spike,2026-05-28,95910.19,95,Review,Escalate to Case,High
+ALT0098,CUST1055,Unusual Volume Spike,2026-07-28,30300.53,95,Review,Close - No Suspicion,High
+ALT0099,CUST1041,Unusual Volume Spike,2026-07-28,51602.27,95,Review,Close - No Suspicion,Moderate
+ALT0100,CUST1055,Unusual Volume Spike,2026-06-28,29431.92,95,Review,Close - No Suspicion,High
+ALT0101,CUST1029,Unusual Volume Spike,2026-08-28,39875.91,95,Review,Pending,High
+ALT0102,CUST1133,Unusual Volume Spike,2026-06-28,18940.78,95,Review,Close - No Suspicion,High
+ALT0103,CUST1233,Unusual Volume Spike,2026-03-28,81964.89,95,Review,Escalate to Case,Moderate
+ALT0104,CUST1037,Unusual Volume Spike,2026-07-28,88604.77,95,Review,Close - No Suspicion,Moderate
+ALT0105,CUST1149,Unusual Volume Spike,2026-07-28,31385.12,95,Review,Escalate to Case,Moderate
+ALT0106,CUST1132,Unusual Volume Spike,2026-06-28,70132.34,95,Review,Close - No Suspicion,Moderate
+ALT0107,CUST1274,Unusual Volume Spike,2026-02-28,28822.78,95,Review,Close - No Suspicion,High
+ALT0108,CUST1102,Unusual Volume Spike,2026-09-28,46899.85,95,Review,Escalate to Case,High
+ALT0109,CUST1274,Unusual Volume Spike,2026-05-28,27989.8,95,Review,Close - No Suspicion,High
+ALT0110,CUST1205,Unusual Volume Spike,2026-06-28,82030.33,95,Review,Pending,High
+ALT0111,CUST1079,Unusual Volume Spike,2026-07-28,91955.67,95,Review,Pending,High
+ALT0112,CUST1021,Unusual Volume Spike,2026-01-28,44319.16,95,Review,Escalate to Case,High
+ALT0113,CUST1149,Unusual Volume Spike,2026-05-28,29388.62,95,Review,Pending,Moderate
+ALT0114,CUST1278,Unusual Volume Spike,2026-07-28,33635.01,95,Review,SAR Consideration,Moderate
+ALT0115,CUST1116,Unusual Volume Spike,2026-09-28,74733.65,95,Review,Escalate to Case,High
+ALT0116,CUST1230,Unusual Volume Spike,2026-06-28,17354.1,95,Review,Pending,High
+ALT0117,CUST1069,Unusual Volume Spike,2026-08-28,18902.96,95,Review,Pending,Moderate
+ALT0118,CUST1187,Unusual Volume Spike,2026-02-28,43929.9,95,Review,Pending,Moderate
+ALT0119,CUST1014,Unusual Volume Spike,2026-03-28,42597.8,95,Review,Escalate to Case,Moderate
+ALT0120,CUST1230,Unusual Volume Spike,2026-04-28,16820.46,95,Review,SAR Consideration,High
+ALT0121,CUST1080,Unusual Volume Spike,2026-07-28,22561.09,95,Review,Close - No Suspicion,Moderate
+ALT0122,CUST1178,Unusual Volume Spike,2026-03-28,42653.05,95,Review,Close - No Suspicion,Critical
+ALT0123,CUST1051,Unusual Volume Spike,2026-07-28,29535.77,95,Review,SAR Consideration,Moderate
+ALT0124,CUST1093,Unusual Volume Spike,2026-01-28,41492.0,95,Review,Close - No Suspicion,Moderate
+ALT0125,CUST1265,Unusual Volume Spike,2026-03-28,93913.48,95,Review,Close - No Suspicion,High
+ALT0126,CUST1259,Unusual Volume Spike,2026-02-28,38683.63,95,Review,Pending,Moderate
+ALT0127,CUST1029,Unusual Volume Spike,2026-03-28,31894.11,95,Review,Escalate to Case,High
+ALT0128,CUST1227,Unusual Volume Spike,2026-04-28,39859.93,95,Review,Close - No Suspicion,Moderate
+ALT0129,CUST1252,Unusual Volume Spike,2026-08-28,66384.04,95,Review,Escalate to Case,High
+ALT0130,CUST1059,Unusual Volume Spike,2026-08-28,21669.5,95,Review,Escalate to Case,Moderate
+ALT0131,CUST1230,Unusual Volume Spike,2026-05-28,15752.04,95,Review,Close - No Suspicion,High
+ALT0132,CUST1029,Unusual Volume Spike,2026-07-28,30277.76,95,Review,Escalate to Case,High
+ALT0133,CUST1115,Unusual Volume Spike,2026-06-28,28573.24,95,Review,Close - No Suspicion,High
+ALT0134,CUST1033,Unusual Volume Spike,2026-04-28,32772.83,95,Review,Close - No Suspicion,High
+ALT0135,CUST1227,Unusual Volume Spike,2026-06-28,37241.84,95,Review,Close - No Suspicion,Moderate
+ALT0136,CUST1133,Unusual Volume Spike,2026-07-28,13981.59,95,Review,Escalate to Case,High
+ALT0137,CUST1081,Unusual Volume Spike,2026-02-28,28124.95,95,Review,Pending,High
+ALT0138,CUST1258,Unusual Volume Spike,2026-07-28,27773.98,95,Review,Close - No Suspicion,Moderate
+ALT0139,CUST1140,Unusual Volume Spike,2026-01-28,32389.79,95,Review,Pending,Moderate
+ALT0140,CUST1143,Unusual Volume Spike,2026-05-28,97921.62,95,Review,Close - No Suspicion,High
+ALT0141,CUST1059,Unusual Volume Spike,2026-03-28,20366.5,95,Review,Pending,Moderate
+ALT0142,CUST1268,Unusual Volume Spike,2026-02-28,66382.45,95,Review,Close - No Suspicion,High
+ALT0143,CUST1252,Unusual Volume Spike,2026-04-28,60186.14,95,Review,Escalate to Case,High
+ALT0144,CUST1133,Unusual Volume Spike,2026-04-28,13507.83,95,Review,Escalate to Case,High
+ALT0145,CUST1212,Unusual Volume Spike,2026-03-28,23956.44,95,Review,Pending,High
+ALT0146,CUST1265,Unusual Volume Spike,2026-06-28,82567.31,95,Review,Close - No Suspicion,High
+ALT0147,CUST1025,Unusual Volume Spike,2026-06-28,35324.17,95,Review,Pending,High
+ALT0148,CUST1294,Unusual Volume Spike,2026-02-28,18305.89,95,Review,Escalate to Case,High
+ALT0149,CUST1027,Unusual Volume Spike,2026-07-28,23850.04,95,Review,Close - No Suspicion,Moderate
+ALT0150,CUST1274,Unusual Volume Spike,2026-03-28,21296.13,95,Review,SAR Consideration,High
+ALT0151,CUST1133,Unusual Volume Spike,2026-02-28,12928.89,95,Review,Escalate to Case,High
+ALT0152,CUST1258,Unusual Volume Spike,2026-06-28,25740.23,95,Review,Close - No Suspicion,Moderate
+ALT0153,CUST1069,Unusual Volume Spike,2026-07-28,15086.11,95,Review,Escalate to Case,Moderate
+ALT0154,CUST1130,Unusual Volume Spike,2026-07-28,28937.83,95,Review,Escalate to Case,Moderate
+ALT0155,CUST1152,Unusual Volume Spike,2026-08-28,41845.56,95,Review,Pending,Moderate
+ALT0156,CUST1115,Unusual Volume Spike,2026-02-28,25075.01,95,Review,Pending,High
+ALT0157,CUST1044,Unusual Volume Spike,2026-01-28,31165.83,95,Review,Close - No Suspicion,Moderate
+ALT0158,CUST1258,Unusual Volume Spike,2026-08-28,24719.33,95,Review,Close - No Suspicion,Moderate
+ALT0159,CUST1037,Rapid Movement / Velocity,2026-07-15,78291.72,82,Escalate,Close - No Suspicion,Moderate
+ALT0160,CUST1062,Rapid Movement / Velocity,2026-07-15,90016.43,82,Escalate,Pending,High
+ALT0161,CUST1070,Rapid Movement / Velocity,2026-07-15,98514.73,82,Escalate,Close - No Suspicion,Moderate
+ALT0162,CUST1073,Rapid Movement / Velocity,2026-07-15,85036.76,82,Escalate,Close - No Suspicion,High
+ALT0163,CUST1079,Rapid Movement / Velocity,2026-07-15,71408.34,82,Escalate,Escalate to Case,High
+ALT0164,CUST1108,Rapid Movement / Velocity,2026-07-15,84489.38,82,Escalate,Pending,High
+ALT0165,CUST1129,Rapid Movement / Velocity,2026-07-15,81090.7,82,Escalate,Close - No Suspicion,High
+ALT0166,CUST1155,Rapid Movement / Velocity,2026-07-15,79781.84,82,Escalate,Escalate to Case,Moderate
+ALT0167,CUST1159,Rapid Movement / Velocity,2026-02-10,30617.9,82,Escalate,Pending,High
+ALT0168,CUST1187,Rapid Movement / Velocity,2026-07-15,80317.19,82,Escalate,Escalate to Case,Moderate
+ALT0169,CUST1239,Rapid Movement / Velocity,2026-07-15,83790.33,82,Escalate,Pending,Moderate
