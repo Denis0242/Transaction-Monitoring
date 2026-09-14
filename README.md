@@ -151,25 +151,6 @@ See `tableau/TABLEAU_BUILD_GUIDE.md`.
 
 **What it represents:** Shows how alerts progress to pending, closure, escalation, or SAR outcomes, providing a clear view of investigation decisions.
 
-## Resume Bullets
-**AML Transaction Monitoring & Alert Investigation Analytics | SQL, Python, Tableau, Streamlit**
-
-- Built an end-to-end AML transaction-monitoring analytics project using synthetic customer and transaction data to identify potential structuring, high-risk jurisdiction wires, unusual transaction volume, rapid movement of funds, and cross-border risk.
-- Developed SQL detection logic and an explainable customer risk-scoring framework, then created Tableau and Streamlit investigator views for alert prioritization, customer review, transaction analysis, and escalation support.
-
-## Interview Explanation
-I built an AML transaction-monitoring and alert-investigation project that simulates the workflow from raw transaction data through alert generation and investigator review. SQL is used to identify red flags and unusual behavioral patterns, Python prepares and analyzes the data and produces an explainable customer risk score, Tableau supports management reporting, and Streamlit provides an investigator-style customer and alert review workbench.
-
 ## Disclaimer
 This is an educational portfolio project using synthetic data. It does not use confidential financial-institution or customer information and is not intended to replace an institution's AML policies, models, regulatory obligations, sanctions controls, or investigator judgment.
 
-
-## Dashboard Design Update
-The final Tableau/Streamlit visual layer uses a compact white-background executive style. The dashboard includes KPI cards, alert trend, scenario donut chart, customer risk, disposition analytics, top alerted customers, and cross-border exposure labeled with full country names.
-
-
-## Final Dashboard
-The executive dashboard image in `images/02_executive_dashboard.png` is the approved final design.
-It uses distinct, non-stacked bar charts for country exposure, customer risk distribution,
-top five alerted customers, and alert disposition; a line chart for alerts over time; and
-a donut chart for alert scenarios.
