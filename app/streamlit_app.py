@@ -293,13 +293,11 @@ with tab4:
         "Executive Tableau dashboard for quick recruiter and hiring-manager review."
     )
 
-    dashboard_candidates = [
-        ROOT / "images" / "02_executive_dashboard.png",
-        ROOT / "images" / "01_executive_dashboard.png",
-    ]
-    dashboard = next((p for p in dashboard_candidates if p.exists()), None)
+    # Canonical recruiter-facing dashboard image.
+    # Replace images/02_executive_dashboard.png in the repository with the newly approved dashboard.
+    dashboard = ROOT / "images" / "02_executive_dashboard.png"
 
-    if dashboard:
+    if dashboard.exists():
         st.image(
             str(dashboard),
             caption="AML Transaction Monitoring & Alert Investigation — Executive Dashboard",
