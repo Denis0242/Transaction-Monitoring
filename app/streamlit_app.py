@@ -97,7 +97,7 @@ else:
     s3.info(portfolio_message)
 
     st.markdown(
-        f"""**Plain-English summary:** The selected view contains **{total_alerts:,} AML alerts**
+        f"""The selected view contains **{total_alerts:,} AML alerts**
         representing approximately **${alert_volume:,.0f} in alerted transaction activity**.
         **{high_risk_alerts:,} alerts ({high_risk_pct:.1f}%)** have risk scores of 80 or above,
         while **{escalations:,} alerts ({escalation_pct:.1f}%)** are marked for case escalation
