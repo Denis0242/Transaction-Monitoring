@@ -1,6 +1,6 @@
 # AML Transaction Monitoring & Alert Investigation Analytics
 
-**AML / Financial Crime Analytics Portfolio Project**
+### AML / Financial Crime Analytics Portfolio Project
 
 An end-to-end AML transaction-monitoring and alert-investigation project
 using **Python, SQL, Tableau, and Streamlit** to analyze customer
@@ -54,26 +54,21 @@ decision support.
 
 ------------------------------------------------------------------------
 
-## Data Model
+## Data Model Overview
 
-  ------------------------------------------------------------------------------------
-  Dataset                                                Rows Purpose
-  ------------------------------ ---------------------------- ------------------------
-  Customer reference                                      300 KYC profile and baseline
-                                                              AML context
+The project uses five interconnected datasets supporting transaction monitoring, behavioral analysis, alert investigation, and customer-level AML risk assessment.
 
-  Raw transactions                                     15,000 Transaction-monitoring
-                                                              and behavior analysis
+| Dataset | Rows | Purpose |
+|---|---:|---|
+| **Customer Reference** | **300** | Customer KYC profiles and baseline AML risk context |
+| **Raw Transactions** | **15,000** | Transaction activity used for monitoring and behavioral-pattern analysis |
+| `transactions_enriched.csv` | **15,000** | Analytics-ready transaction layer with engineered AML risk and behavioral features |
+| `alerts.csv` | **169** | AML monitoring alerts, investigation findings, and disposition outcomes |
+| `customer_risk_features.csv` | **300** | Customer-level AML risk indicators, behavioral features, and prioritization metrics |
 
-  `alerts.csv`                                            169 AML alerts and
-                                                              investigation outcomes
+> **Data flow:** Customer & Transaction Data → Data Quality & Feature Engineering → Transaction Monitoring → Alert Generation → Investigation → Customer Risk Prioritization
 
-  `customer_risk_features.csv`                            300 Customer-level AML risk
-                                                              and behavioral features
-
-  `transactions_enriched.csv`                          15,000 Analytics-ready
-                                                              transaction layer
-  ------------------------------------------------------------------------------------
+---
 
 See [`docs/data_dictionary.md`](docs/data_dictionary.md) for field
 definitions and dataset relationships.
@@ -133,27 +128,19 @@ clearly explained during an AML or Financial Crime Analytics interview.
 
 ## AML Transaction Monitoring Analysis
 
-The project demonstrates:
+The project demonstrates an end-to-end AML transaction-monitoring and alert-investigation workflow, combining customer risk context, transaction behavior, monitoring scenarios, and risk-based decision support.
 
-**Customer profile review** --- KYC risk, PEP status, expected monthly
-activity, occupation/industry, and account context.
+| Analysis Area | What It Covers |
+|---|---|
+| **Customer Profile Review** | Reviews KYC risk, PEP status, expected monthly activity, occupation/industry, and account context |
+| **Transaction Behavior Analysis** | Analyzes transaction volume, channels, direction, counterparties, cross-border activity, cash/wire behavior, and high-risk jurisdictions |
+| **Monitoring Scenario Analysis** | Evaluates alerts involving unusual volume, high-risk wires, structuring-like activity, rapid movement of funds, and related monitoring scenarios |
+| **Alert Prioritization** | Prioritizes alerts using risk scores, alert amounts, customer risk, and relevant behavioral indicators |
+| **Investigation Decision Support** | Combines alert history, customer AML risk, expected activity, cross-border behavior, prior escalations, and PEP status to support investigation decisions |
 
-**Transaction behavior analysis** --- transaction volume, channel,
-direction, counterparties, cross-border behavior, cash/wire activity,
-and high-risk jurisdictions.
+> **Investigation workflow:** Customer Profile Review → Transaction Analysis → Scenario Detection → Alert Generation → Risk Prioritization → Investigation Review → Disposition
 
-**Monitoring scenarios** --- alert analysis across unusual volume,
-high-risk wires, structuring-like activity, rapid movement, and related
-scenarios.
-
-**Alert prioritization** --- ranking alerts by risk score and alert
-amount.
-
-**Investigation decision support** --- combining alert history with
-customer AML risk, expected activity, cross-border behavior, prior
-escalation, and PEP status.
-
-------------------------------------------------------------------------
+---
 
 ## SQL Analysis
 
@@ -168,19 +155,23 @@ See [`sql/`](sql/) for the complete SQL analysis.
 
 ## Verified Current KPIs
 
-  KPI                                        Current Result
-  --------------------------------------- -----------------
-  Total Customers                                   **300**
-  Total Transactions                             **15,000**
-  Total AML Alerts                                  **169**
-  Alerted Customers                                  **68**
-  High-Risk Alerts (score ≥80)              **115 (68.0%)**
-  Escalation / SAR-Consideration Alerts      **53 (31.4%)**
-  SAR-Consideration Alerts                           **11**
-  Alerted Amount                                 **\$9.5M**
-  Average Alert Risk Score                         **87.5**
+The following KPIs were recalculated from the current processed datasets to validate transaction-monitoring volume, alert exposure, risk prioritization, and investigation outcomes.
 
-------------------------------------------------------------------------
+| KPI | Current Result |
+|---|---:|
+| Total Customers | **300** |
+| Total Transactions | **15,000** |
+| Total AML Alerts | **169** |
+| Alerted Customers | **68** |
+| High-Risk Alerts (Score ≥ 80) | **115 (68.0%)** |
+| Escalation / SAR-Consideration Alerts | **53 (31.4%)** |
+| SAR-Consideration Alerts | **11** |
+| Total Alerted Amount | **$9.5M** |
+| Average Alert Risk Score | **87.5** |
+
+> **Investigation insight:** The monitoring workflow generated **169 AML alerts across 68 customers** from **15,000 transactions**. Of those alerts, **115 (68.0%) were high risk**, while **53 (31.4%) required escalation or SAR consideration**, including **11 specifically identified for SAR consideration**.
+
+---
 
 ## Key Findings
 
@@ -307,27 +298,16 @@ Tableau + Streamlit Reporting
 
 ## Tools & Technologies
 
-  -----------------------------------------------------------------------
-  Tool                                Use
-  ----------------------------------- -----------------------------------
-  **Python / Pandas**                 EDA, feature engineering,
-                                      customer-risk and alert analysis
+| Technology | Application in This Project |
+|---|---|
+| **Python / Pandas** | EDA, data validation, feature engineering, customer-risk analysis, and AML alert analytics |
+| **SQL** | Transaction monitoring, scenario analysis, alert investigation, customer-risk analysis, and behavioral pattern review |
+| **Tableau** | Executive AML transaction-monitoring dashboard, KPI tracking, and risk visualization |
+| **Streamlit** | Interactive AML investigator workbench, alert review, filtering, and decision support |
+| **Jupyter Notebook** | Reproducible EDA, feature-engineering, validation, and analytical workflow |
+| **Git / GitHub** | Version control, project documentation, and portfolio presentation |
 
-  **SQL**                             Transaction monitoring, scenarios,
-                                      alert and customer analysis
-
-  **Tableau**                         Executive AML dashboard
-
-  **Streamlit**                       Investigator workbench and decision
-                                      support
-
-  **Jupyter Notebook**                Reproducible analytical workflow
-
-  **Git / GitHub**                    Version control and portfolio
-                                      presentation
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## Repository Structure
 
